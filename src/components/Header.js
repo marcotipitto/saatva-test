@@ -9,7 +9,7 @@ const Header = ({ shopCount }) => {
 
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
+            <Navbar.Brand><Logo /></Navbar.Brand>
             <Nav className="ml-auto">
                 <Badge color="secondary" badgeContent={shopCount} role="cart-count" name="count">
                     <ShoppingCartIcon />{" "}
