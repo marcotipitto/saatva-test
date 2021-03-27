@@ -35,7 +35,7 @@ const MattressDetail = ({
                 <p className="align-left">{selectedMattress.name}</p>
                 <p className="align-right">${numberWithCommas(selectedMattress.price)}</p>
                 <div className="clear"></div>
-                <p className="align-left">Review Rating: {selectedMattress.reviewRating}/ 5</p>
+                <p className="align-left">Review Rating: {selectedMattress.reviewRating} / 5</p>
                 <StarPicker
                     className="align-right"
                     value={selectedMattress.reviewRating}

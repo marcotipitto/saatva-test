@@ -1,21 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Saatva Test",
+  "name": "Saatva Test - Marco Tipitto Cerruti",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "classic-carousel.jpg",
+      "type": "image/jpg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "loom-carousel.jpg",
+      "type": "image/jpg"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "zen-carousel.jpg",
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
