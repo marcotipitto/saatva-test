@@ -1,0 +1,39 @@
+@import './colors';
+@import './header';
+@import './body';
+
+.btn {
+
+  border-radius: 0 !important;
+
+  &.btn-primary {
+    border-color: $saatva-gold;
+    background-color: $saatva-gold;
+    color: $light-gray;
+    margin-bottom: 10px;
+
+    &:hover, &:active, &:focus {
+        background-color: $saatva-light-gold !important;
+        border-color: $saatva-light-gold !important;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: $white;
+    border-color: $dark-gray;
+    color: $dark-gray;
+
+    &:hover, &:active, &:focus, &.active {
+      background-color: $dark-gray !important;
+      border-color: $dark-gray !important;
+      color: $white
+    }
+  }
+
+  &.btn-wide {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+  }
+}

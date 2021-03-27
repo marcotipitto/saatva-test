@@ -1,0 +1,33 @@
+.body {
+  background-color: $light-gray;
+  padding: 35px;
+  font-family: 'Questrial', sans-serif;
+
+  .title {
+    font-family: 'Source Serif Pro', serif;
+  }
+
+  .select-prompt {
+    margin-bottom: 0;
+    margin-top: 35px;
+  }
+
+  .mattress-details {
+    display: inline;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    .align-left {
+      float: left;
+      font-weight: bolder;
+    }
+
+    .align-right {
+      float: right;
+    }
+
+    .clear {
+      clear: both;
+    }
+  }
+}
