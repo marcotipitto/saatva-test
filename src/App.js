@@ -1,9 +1,5 @@
 import MattressShop from './components/MattressShop';
 
-const App = () => {
-  return (
-    <MattressShop></MattressShop>
-  );
-}
+const App = () => <MattressShop></MattressShop>
 
 export default App;
