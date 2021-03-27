@@ -3,6 +3,7 @@
   padding: 35px;
   font-family: 'Questrial', sans-serif;
   max-width: 1500px;
+  margin: auto;
 
   .title {
     font-family: 'Source Serif Pro', serif;
@@ -14,9 +15,6 @@
   }
 
   .mattress-details {
-    display: inline;
-    margin-top: 15px;
-    margin-bottom: 20px;
 
     .align-left {
       float: left;
@@ -29,6 +27,18 @@
 
     .clear {
       clear: both;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .detail-btn {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    .body-btn {
+      display: none;
     }
   }
 }

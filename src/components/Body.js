@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MattressCarousel from './MattressCarousel';
 import MattressDetail from './MattressDetail';
+import AddToCartButton from './AddToCartButton';
 
 const Body = ({ setShopCount, mattresses }) => {
     const [selectedMattress, setSelectedMattress] = useState(mattresses[0]);
@@ -19,7 +20,9 @@ const Body = ({ setShopCount, mattresses }) => {
                     mattresses={mattresses} 
                     selectedMattress={selectedMattress} />
             </div>
-
+            <div className="col-md-6 body-btn">
+                <AddToCartButton setShopCount={setShopCount}/>
+            </div>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button, ButtonGroup, ToggleButton } from 'react-bootstrap';
+import { ButtonGroup, ToggleButton } from 'react-bootstrap';
 import StarPicker from 'react-star-picker';
+import AddToCartButton from './AddToCartButton';
 
 const MattressDetail = ({
     mattresses, 
@@ -44,12 +45,10 @@ const MattressDetail = ({
                     size={25}/>
                 <div className="clear"></div>
             </div>
-            <Button 
-                onClick={() => setShopCount(prev => prev + 1)} 
-                className="btn btn-primary btn-wide"
-                name="Add to Cart">
-                    Add to Cart
-            </Button>
+            <div className="detail-btn">
+                <AddToCartButton setShopCount={setShopCount}/>
+            </div>
+            
         </>
     )
 }

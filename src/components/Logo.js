@@ -4,7 +4,7 @@ const Logo = () =>
     <div className="logo">
         <svg 
             name="saatvaLogo" 
-            class="icon icon--saatvaLogo nav__saatvaLogo" 
+            className="icon icon--saatvaLogo nav__saatvaLogo" 
             role="img" 
             alt="Saatva Logo" 
             description="Saatva Logo" 
